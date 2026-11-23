@@ -1,0 +1,101 @@
+{
+  "release_status": "CANDIDATE_NOT_YET_PUBLISHED_OR_END_TO_END_REPRODUCED",
+  "purpose": "Code-only replication material for retrospective ICU mortality prediction; requires separately credentialed PhysioNet data",
+  "code_files": 46,
+  "provenance": "Exact scripts copied from the uploaded project archive and separately staged analysis patches; no scientific code edits in this candidate",
+  "stage8f_locked_source_checks": "PASS",
+  "stage8f_locked_source_files": [
+    {
+      "file": "item_mapping_stage3c.json",
+      "sha256": "c0cf0141da50e9ab1a2cfdb313ac30d010bb2c02acd80778ce2b585d01909a0a",
+      "role": "PROJECT_SOURCE_OPTIONAL"
+    },
+    {
+      "file": "icu_stage7e_unified_dynamic_audit.py",
+      "sha256": "4321d2a25e11c22d1487de5e5d5b534632af0a0ca217b893af3796f6bfe70719",
+      "role": "PROJECT_SOURCE_OPTIONAL"
+    },
+    {
+      "file": "icu_stage8a_lab_availability.py",
+      "sha256": "1443bf7eb7aebba546faf0ea52e572131fd945f05756cfd29b56c24df169c8ee",
+      "role": "PROJECT_SOURCE_OPTIONAL"
+    },
+    {
+      "file": "icu_stage8b_availability_aware.py",
+      "sha256": "fd6b0174aa1af2810b333188c969917c01b6b0c792bfeb261161929d2bdeb146",
+      "role": "PROJECT_SOURCE_OPTIONAL"
+    },
+    {
+      "file": "icu_stage8c_endpoint_adjudication.py",
+      "sha256": "c5b657f6cba5aa364484ac2d17ed604c86d5b1664d0b9e2ee402f6a0b51de32a",
+      "role": "PROJECT_SOURCE_OPTIONAL"
+    },
+    {
+      "file": "icu_stage8d_endpoint_robust_validation.py",
+      "sha256": "4a3b405fd3cf6da763039ddd35bd806cf1ea30a81b4badf37d02e19fe23f8ea5",
+      "role": "PROJECT_SOURCE_OPTIONAL"
+    },
+    {
+      "file": "icu_stage8e_scientific_evidence_lock.py",
+      "sha256": "e71f74cfad6980061060eea8b638f4c8553a6ade663cb7558e54a79012c99877",
+      "role": "PROJECT_SOURCE_OPTIONAL"
+    }
+  ],
+  "source_hashes_sha256": {
+    "scripts/icu_stage3b_rebuild.py": "efec37272a46c22083972f5100e8289a4e12deb40c3b60f1acdbd840dcd71784",
+    "scripts/stage3_preflight.py": "72b397cc4e826e3d52f5f87675258155ac706891f5e5a7f33f1e027e4089c882",
+    "scripts/icu_stage6c_count_ablation.py": "0aa620e4a44a5dd88456e5a72332677c02e57701a2b0abc0937a32fcc3660639",
+    "scripts/icu_stage7b_frozen_model.py": "dd89823f6321ee0c43f46bfe02bfc80a973c375c47db3f89ea861f75c72e8229",
+    "scripts/icu_stage5d_bootstrap_calibration.py": "7d9147104353d096728e1ecd8409233befe3125c83b3a99cc38e73f5a1028cc1",
+    "scripts/build_and_query_icu.py": "aa51711b7c9f0d83ca0dd59a62e578a0ae65cb2359eee8e48cd0e4e430b082fe",
+    "scripts/stage5c_model_helpers.py": "ed0932a12697f6ee3828d8d05749253203e96360ebdda842fb162bf5c568fbd6",
+    "scripts/icu_stage5_endpoint_selection.py": "cea93db5974490820d4802eec3542f939b6613e7c6cb0df29ad5338cb576ce08",
+    "scripts/evaluate_uncertainty_and_incremental.py": "a9af1a1515e2ee1631f58c0d6be69c2f9b9430cedf42af89b0a805a01c7c7244",
+    "scripts/icu_stage9a_manuscript_evidence_integration.py": "a9055705e56d09edd85ec803d84ed234f0423bf9dec762a70f3ebb99bfaf26a5",
+    "scripts/icu_stage6d_integrated_validation.py": "a139ee733ee3e6f45e0107d9b37109515d0a1a6489613345ad7656908412444b",
+    "scripts/icu_stage5g_cluster_bootstrap.py": "9fca9a1ca57f7175da17960394c1c3f91af95dd83d682178eb41ea2dd0e4c8b8",
+    "scripts/PROTOCOL_DECISIONS.md": "2fdaebed22c2d861f9401ccbca79058177a93eb6658e0adb0e1ada20c923ad6e",
+    "scripts/build_and_query_icu_1.py": "778a02a3e408e60fce09c38e9b45d810afff96254e9776831ef5c47e943e55ca",
+    "scripts/icu_stage8b_availability_aware.py": "fd6b0174aa1af2810b333188c969917c01b6b0c792bfeb261161929d2bdeb146",
+    "scripts/icu_stage5f_boundary_cluster.py": "44b82f800c0a596030beaa54a4c57fafb93886a0781bcd9739c20ba6392afdd4",
+    "scripts/audit_icu.py": "961a1e9ece3b95c3b001228e0c90a98c5f8d4db4dd98560b3439233f898f9ecb",
+    "scripts/icu_stage5e_identity_boundary.py": "3fdd243ceadf6e0beef27ac2dbd81b620371fe56b09f143011e1b48c2ef3fc07",
+    "scripts/icu_stage7d_paired_dynamic_audit.py": "7006b46ab1771c562a9e87715e8c9210c64787f4b2f04258083262348449c4a5",
+    "scripts/icu_stage3c_rebuild.py": "1da606c1ff78446a95e1da4d78116489eacc0554d99a42ad96d8dade5e3bd6a7",
+    "scripts/icu_stage3a_exclusion_qc.py": "3ac40fa7c8968d3073e56095edf42c50af0ef7c91a25e3275c9791a1df644677",
+    "scripts/icu_stage5b_competing_discharge.py": "aa8129098a8179f8e4b55a9fbb18a23c722f751b139cb0db9df730fe8cb539c5",
+    "scripts/icu_stage7a_dynamic_state.py": "541f49509aa9661151f7eb8ebccdaedaa6b8e351b4133b81f3cebba985c9d0d7",
+    "scripts/icu_stage4_temperature_sensitivity.py": "fbc4660ac85550f85f3aa9f7136290365cd6ba6eabb7b746cbde45999fe47e71",
+    "scripts/icu_stage8f_frozen_validation_protocol.py": "9919f75dee9b3eb4c9dedbd3fe40cca837ae4abcb2999c7c4d71f9e57e711086",
+    "scripts/icu_stage7e_unified_dynamic_audit.py": "4321d2a25e11c22d1487de5e5d5b534632af0a0ca217b893af3796f6bfe70719",
+    "scripts/icu_stage8d_endpoint_robust_validation.py": "4a3b405fd3cf6da763039ddd35bd806cf1ea30a81b4badf37d02e19fe23f8ea5",
+    "scripts/icu_stage8a_lab_availability.py": "1443bf7eb7aebba546faf0ea52e572131fd945f05756cfd29b56c24df169c8ee",
+    "scripts/icu_stage5c_selection_sensitivity.py": "ed0932a12697f6ee3828d8d05749253203e96360ebdda842fb162bf5c568fbd6",
+    "scripts/icu_stage6b_feature_shift.py": "dcb56c1edb2cdafedb6c8fc85930a0f5fa87c14d92e836d0921c390393d26757",
+    "scripts/icu_stage3d_eicu_temp_audit.py": "7460c7a391a3fbcd8c3c856e526d7b7c18ce3b9171fb766d41e90039ac082083",
+    "scripts/icu_stage2_feature_audit.py": "a93b4c7751df884f91708ea4c4fdbd100a16432394f8fff9b841c6d68fe0f70c",
+    "scripts/icu_stage7c_prospective_landmarks.py": "7397f475a2ec103fab2c4a277c1a0da9a9c3c616323bc824b9bb583a0b4992d2",
+    "scripts/icu_stage1_audit.py": "eb3c835570e8b39453449032466b43bcbc2a2727792326ab3082b4b5903b9114",
+    "scripts/icu_stage6a_calibration.py": "46d55dc894781c61cab321a3f202d30f64f4565131cbc07f386928434eaa507a",
+    "scripts/icu_stage1b_endpoint_audit.py": "2df61b83fbd1ba426a321f1077337e8ac8d951dc1d6421b7c3b49669ab30d98e",
+    "scripts/icu_stage8c_endpoint_adjudication.py": "c5b657f6cba5aa364484ac2d17ed604c86d5b1664d0b9e2ee402f6a0b51de32a",
+    "scripts/icu_stage5h_hospital_heterogeneity.py": "074cf140592d5b74a24474204dd42219326d5a9991bf65103dddbc9690b4cd73",
+    "scripts/icu_stage3_rebuild.py": "840a8e7c7c1ff5e24a7e341e2141dec873ce31da3512f402a4aeaad6d9a4d045",
+    "scripts/icu_stage8e_scientific_evidence_lock.py": "e71f74cfad6980061060eea8b638f4c8553a6ade663cb7558e54a79012c99877",
+    "scripts/test_stage8d_synthetic.py": "0713e89ca9d34a32259e8673dbb233e5dc28428648756b4560f7ec55a4b05965",
+    "scripts/icu_stage8g_feasibility_claim_audit.py": "4b044ad5b00b27b49c409455afb3c729b38cc25420a4115bd98b44fdc2b765c5",
+    "scripts/test_stage8c_synthetic.py": "950326f273c77a35e6b0046a6b65008dfd198042ac9cb11881bfe01515a3ffb8",
+    "scripts/icu_stage2b_raw_audit.py": "2454f8933dcace70c189bf53fba024b9ca194d253e82d8ecd1910682b68fead1",
+    "scripts/item_mapping_stage3c.json": "c0cf0141da50e9ab1a2cfdb313ac30d010bb2c02acd80778ce2b585d01909a0a",
+    "scripts/icu_validation/reproducibility_audit.py": "2c41bc14f87fb1e3442495f2182747b8c83ada96b716956471e0bac612b0714a"
+  },
+  "blocked": "No raw/derived patient rows, models, local databases, executable output archives, or credentials",
+  "data_version_statement": "Versions in manuscript are MIMIC-IV 3.1 and eICU-CRD 2.0; local acquisition versions unverified pending author confirmation",
+  "scientific_scope": "Exploratory eICU evaluation; eICU-informed post-hoc feature selection, not independent external confirmation",
+  "limitations": [
+    "Archived analysis uses open-left closed-right (t,t+24h] label; reconcile Stage8F future protocol via versioned amendment",
+    "Stage7E code has numerical drift in earlier independent reproductions; only Stage8E same-run reference reconciliations have passed",
+    "New host raw-to-results reproduction not yet performed",
+    "Python dependencies and dataset schemas require author-side environment verification"
+  ]
+}

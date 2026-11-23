@@ -1,0 +1,11 @@
+# Validated by the manuscript authors on Windows / Python 3.14 (2026-11-23).
+# Based on the pip-install output of the local static/synthetic smoke test.
+# NOT a record of the original clinical-analysis environment, and NOT proof
+# of exact end-to-end reproduction with restricted data.
+numpy==2.5.1
+pandas==3.0.5
+scipy==1.18.0
+scikit-learn==1.9.0
+duckdb==2.0.0
+matplotlib==3.11.1
+python-docx==1.2.0

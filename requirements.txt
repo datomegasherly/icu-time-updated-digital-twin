@@ -1,0 +1,9 @@
+# Version ranges, not a claimed frozen execution environment.
+# On the authors' Windows machine: python -m pip freeze > environment_authors.txt
+numpy
+pandas
+scipy
+scikit-learn
+duckdb
+matplotlib
+python-docx

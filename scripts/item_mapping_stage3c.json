@@ -1,0 +1,123 @@
+{
+  "landmark_minute": 1440,
+  "horizon_minute": 1440,
+  "mimic": {
+    "vitals": {
+      "hr": [
+        220045,
+        211
+      ],
+      "rr": [
+        220210,
+        618
+      ],
+      "spo2": [
+        220277,
+        646
+      ],
+      "map": [
+        220052,
+        225312
+      ],
+      "temp": [
+        676,
+        678,
+        223761,
+        223762
+      ]
+    },
+    "labs": {
+      "creatinine": [
+        50912
+      ],
+      "sodium": [
+        50983
+      ],
+      "potassium": [
+        50971
+      ],
+      "bun": [
+        51006
+      ],
+      "glucose": [
+        50931,
+        50933
+      ],
+      "lactate": [
+        50813
+      ]
+    },
+    "event_components": [
+      {
+        "name": "mortality",
+        "column": "deathtime"
+      }
+    ],
+    "death_component": "mortality",
+    "exclude_dnr_itemids": [],
+    "exclude_terminal_itemids": []
+  },
+  "eicu": {
+    "vitals": {
+      "hr": {
+        "column": "heartrate",
+        "offset_column": "observationoffset"
+      },
+      "rr": {
+        "column": "respiration",
+        "offset_column": "observationoffset"
+      },
+      "spo2": {
+        "column": "sao2",
+        "offset_column": "observationoffset"
+      },
+      "map": {
+        "column": "systemicmean",
+        "offset_column": "observationoffset"
+      },
+      "temp": {
+        "column": "temperature",
+        "offset_column": "observationoffset"
+      }
+    },
+    "labs": {
+      "creatinine": [
+        "creatinine"
+      ],
+      "sodium": [
+        "sodium"
+      ],
+      "potassium": [
+        "potassium"
+      ],
+      "bun": [
+        "BUN"
+      ],
+      "glucose": [
+        "glucose"
+      ],
+      "lactate": [
+        "lactate"
+      ]
+    },
+    "event_components": [
+      {
+        "name": "mortality",
+        "offset_column": "hospitaldischargeoffset",
+        "flag_column": "hospitaldischargestatus",
+        "flag_values": [
+          "Expired"
+        ]
+      }
+    ],
+    "death_component": "mortality",
+    "dnr_column": "unitdischargestatus",
+    "dnr_values": [
+      "__NONE__"
+    ],
+    "terminal_column": "unitdischargestatus",
+    "terminal_values": [
+      "__NONE__"
+    ]
+  }
+}

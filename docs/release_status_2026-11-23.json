@@ -1,0 +1,10 @@
+{
+  "code_source_files": 46,
+  "hash_locked_files": 7,
+  "python_source_files_syntax_checked_by_author": 44,
+  "clinical_data_reproduction": "NOT TESTED IN LOG",
+  "code_license": "NOT SELECTED",
+  "public_repository": "NOT YET PUBLISHED",
+  "validation_environment": "Python 3.14 Windows (smoke test only)",
+  "provenance": "User-provided PowerShell output 2026-11-23"
+}

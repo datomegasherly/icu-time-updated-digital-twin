@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and the required MIMIC-IV/eICU data publications."
+title: "Time-Updated ICU Digital Twin for Mortality Prediction: Reproducibility Code"
+type: software
+authors:
+  - family-names: Salehi
+    given-names: Majid
+    orcid: "https://orcid.org/0009-0006-6840-402X"
+  - family-names: Tarokh
+    given-names: "M.J"
+    orcid: "https://orcid.org/0000-0002-5904-7722"
