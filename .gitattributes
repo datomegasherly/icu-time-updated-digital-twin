@@ -1,0 +1,12 @@
+# Preserve portable LF for ordinary research source files.
+*.py     text eol=lf
+*.md     text eol=lf
+*.json   text eol=lf
+*.txt    text eol=lf
+*.cff    text eol=lf
+.gitignore text eol=lf
+LICENSE  text eol=lf
+
+# Two archived original Python scripts use CRLF; retain their exact bytes for SHA256 gates.
+scripts/audit_icu.py -text -eol
+scripts/evaluate_uncertainty_and_incremental.py -text -eol
