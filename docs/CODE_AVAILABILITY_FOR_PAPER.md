@@ -1,11 +1,10 @@
-# Code availability statements
+# Code availability wording
 
-Use **only after repository is actually public** (replace the placeholders with verified links):
+Public repository reported by owner (confirm that all extracted source files, rather than only a ZIP, are online before using this statement):
+https://github.com/datomegasherly/icu-time-updated-digital-twin
 
-> The source code for cohort construction, time-aware feature extraction, frozen landmark prediction, and aggregate sensitivity analyses is available at [PUBLIC REPOSITORY URL], archived at [ZENODO DOI OR PERSISTENT RELEASE URL]. Access to MIMIC-IV and eICU-CRD patient-level data is restricted under the respective PhysioNet data-use agreements; eligible researchers must request access independently. The repository does not redistribute source or derived patient-level records.
+## Suggested statement after online file verification
 
-**Before publication, not suitable as an unqualified final statement:**
+> Code for the reported cohort construction, time-aware feature processing, fixed-model landmark evaluation, and aggregate sensitivity analyses is publicly available at https://github.com/datomegasherly/icu-time-updated-digital-twin under the MIT License. Access to MIMIC-IV and eICU-CRD patient-level data remains subject to the respective PhysioNet credentialing and data-use requirements. No source or patient-level derived records are redistributed in the repository.
 
-> The analysis code is being prepared for public deposit. Repository details will be supplied before publication; no public release is claimed at present.
-
-Frontiers/PhysioNet obligations must be met before the article's final publication; do not claim a nonexistent code URL or DOI.
+Only mention a Zenodo DOI or GitHub version tag once that release actually exists. Avoid claiming a fully independently replicated pipeline: existing tests cover source integrity and synthetic smoke tests only. The repository's MIT license does not apply to restricted patient data.

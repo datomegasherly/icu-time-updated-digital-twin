@@ -3,8 +3,8 @@
   "hash_locked_files": 7,
   "python_source_files_syntax_checked_by_author": 44,
   "clinical_data_reproduction": "NOT TESTED IN LOG",
-  "code_license": "NOT SELECTED",
-  "public_repository": "NOT YET PUBLISHED",
+  "code_license": "MIT (user-selected at repository creation; preserve GitHub-root LICENSE)",
+  "public_repository": "USER-REPORTED PUBLIC: https://github.com/datomegasherly/icu-time-updated-digital-twin (online contents not independently verified)",
   "validation_environment": "Python 3.14 Windows (smoke test only)",
   "provenance": "User-provided PowerShell output 2026-11-23"
 }

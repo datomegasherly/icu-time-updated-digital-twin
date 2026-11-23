@@ -1,8 +1,8 @@
-# A Time-Updated ICU Digital Twin for Mortality Prediction — Reproducibility Code (RELEASE CANDIDATE)
+# A Time-Updated ICU Digital Twin for Mortality Prediction — Research Reproducibility Code
 
-**Status:** unpublished author-review candidate; **not** an independent end-to-end replication or a newly validated model.
+**Status:** public research code release candidate; the archive passed integrity and synthetic smoke tests, but complete end-to-end replication on an independent environment has not been established. No clinical use is intended.
 
-This repository candidate collects the actual Python analysis scripts and mapping configurations used in the retrospective, landmark-based ICU risk forecasting project. It is for reproducing the published analysis **only on datasets separately acquired through authorized PhysioNet access**. No patient records or fitted models are included. The code is not a clinical decision-support tool.
+This repository collects the actual Python analysis scripts and mapping configurations used in the retrospective, landmark-based ICU risk forecasting project. It is for reproducing the published analysis **only on datasets separately acquired through authorized PhysioNet access**. No patient records or fitted models are included. The code is not a clinical decision-support tool.
 
 ## Study and methods
 - MIMIC-IV development and held-out internal evaluation; exploratory eICU-CRD transfer assessment.
@@ -25,7 +25,6 @@ This repository candidate collects the actual Python analysis scripts and mappin
 
 ## Quick check (PowerShell, Windows)
 ```powershell
-cd .\ICU_Time_Updated_Digital_Twin_Code_Release_CANDIDATE
 python .\tools\verify_release.py
 python -m pip install -r .\requirements.txt
 python .\tools\smoke_test.py
@@ -35,10 +34,10 @@ python -m pip freeze > .\environment_authors.txt
 For actual patient-data analysis, use a **separate private working copy**, pointing CLI arguments to datasets only accessible to authorized users. Do **not** commit outputs or the 7.3 GB derived DuckDB. Consult the step-by-step commands in `docs/PIPELINE.md`.
 
 ## Important publication prerequisites
-1. Obtain authors' approval of this code and choose an explicit software license. No open-source license has been assigned yet.
+1. The repository owner selected the MIT License when creating the GitHub repository. Preserve the existing root `LICENSE` file in GitHub; this upload bundle intentionally does not overwrite or duplicate it. Verify that all code authors and rights holders approve publication.
 2. Run `verify_release.py` and `smoke_test.py` in the authors' actual execution environment; compare outputs with locked results.
 3. Confirm actual local MIMIC/eICU release numbers and document setup, dependency versions and acquisition access rights.
-4. Deposit the vetted repository publicly (GitHub or another research-community-accessible repository); archive a versioned release in Zenodo if desired; obtain a permanent URL/DOI before finalizing the paper's **Code Availability** statement.
+4. The owner reports the GitHub repository is public at https://github.com/datomegasherly/icu-time-updated-digital-twin. Confirm online that these extracted files appear individually (rather than only a ZIP file). After author review, create a versioned release and optionally archive it in Zenodo; add a verified release tag or DOI to the paper when available.
 5. Resolve the discrepancy in future Stage8F endpoint-window documentation with a versioned amendment, *without retroactively editing the archived analyses*.
 
 **No restricted patient data may be uploaded to this public repository.** See `docs/DATA_ACCESS.md`.
